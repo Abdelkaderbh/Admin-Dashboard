@@ -1,0 +1,68 @@
+.widgetLg {
+    flex: 2;
+    box-shadow: -5px 0px 58px 4px rgba(219, 204, 204, 0.75);
+    -webkit-box-shadow: -5px 0px 58px 4px rgba(219, 204, 204, 0.75);
+    -moz-box-shadow: -5px 0px 58px 4px rgba(219, 204, 204, 0.75);
+    padding: 20px;
+}
+
+.widgetLg {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.widgetLgImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.WidgetLgBtn {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 70px;
+    color: white;
+    font-size: 12px;
+}
+
+.WidgetLgBtn.Approved {
+    background-color: green;
+    opacity: 0.3;
+}
+
+.WidgetLgBtn.Pending {
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+.WidgetLgBtn.Declined {
+    background-color: red;
+    opacity: 0.5;
+}
+
+.widgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.TableTh {
+    text-align: left;
+    font-size: 18px;
+}
+
+.TableUser {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.Date {
+    font-size: 15px;
+}
+
+.Amount {
+    font-size: 15px;
+}
